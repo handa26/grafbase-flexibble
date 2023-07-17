@@ -9,6 +9,7 @@ type ProjectSearch = {
   projectSearch: {
     edges: { node: ProjectInterface }[];
     pageInfo: {
+      endCursor: string;
       hasPreviousPage: boolean;
       hasNextPage: boolean;
       startCursor: string;
